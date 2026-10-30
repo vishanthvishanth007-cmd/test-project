@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.overall {
+    margin-top: 10px;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-inline: 10%;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+}
+
+.top {
+    display: flex;
+    gap: 10px;
+}
+
+.logo-img {
+    height: 23px;
+}
+
+.logo {
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+    font-weight: 500;
+    background-color: #ffe500;
+    width: 120px;
+    height: 45px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.travel {
+    display: flex;
+    gap: 5px;
+    font-weight: 500;
+    width: 120px;
+    height: 45px;
+    background-color: rgba(198, 205, 195, 0.541);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 500px;
+}
+
+.loc {
+    color: blue;
+}
+
+.middle {
+    display: flex;
+    margin: 15px;
+}
+
+.search-box {
+    position: relative;
+    width: 900px;
+}
+
+.search-box i {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+.search-box input {
+    padding-left: 45px;
+}
+
+.inp {
+    border-radius: 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.add {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    overflow: auto;
+}
+
+.img {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.suggest {
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.offer {
+    color: blue;
+}
+
+.buy {
+    color: #ffe500
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.end {
+    border: none;
+}
+
+.cent {
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.blue-box {
+    margin-top: 25px;
+    width: 100%;
+    overflow: auto;
+    height: 330px;
+    background-color: #D5E7F5;
+    border-radius: 20px;
+}
+
+.head4 {
+    padding: 10px;
+}
+
+.img14 {
+    border-radius: 10px;
+    height: 250px;
+    width: 180px;
+}
+
+.blueimg {
+    display: flex;
+    gap: 15px;
+    padding: 0px 10px;
+}
+
+
+.down-cards {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.mypara {
+    position: absolute;
+    font-weight: 400;
+    background-color: blue;
+    color: white;
+    padding: 2px 3px;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}

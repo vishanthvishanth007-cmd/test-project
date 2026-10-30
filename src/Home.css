@@ -1,0 +1,101 @@
+.overall {
+    margin-top: 10px;
+    margin-inline: 10%;
+}
+
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.add {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    overflow: auto;
+}
+
+.img {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.suggest {
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.offer {
+    color: blue;
+}
+
+.buy {
+    color: #ffe500
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.end {
+    border: none;
+}
+
+.cent {
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.blue-box {
+    margin-top: 25px;
+    width: 100%;
+    overflow: auto;
+    height: 330px;
+    background-color: #D5E7F5;
+    border-radius: 20px;
+}
+
+.head4 {
+    padding: 10px;
+}
+
+.img14 {
+    border-radius: 10px;
+    height: 250px;
+    width: 180px;
+}
+
+.blueimg {
+    display: flex;
+    gap: 15px;
+    padding: 0px 10px;
+}
+
+
+.down-cards {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.mypara {
+    position: absolute;
+    font-weight: 400;
+    background-color: blue;
+    color: white;
+    padding: 2px 3px;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.overall {
+    margin-top: 10px;
+    margin-inline: 10%;
+}
+
+.top{
+    display: flex;
+    gap: 10px;
+}
+
+.flip-logo{
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+    font-weight: 500;
+    background-color: #ffe500;
+    width: 120px;
+    height: 45px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.logo-img{
+    height: 25px;
+    width: 25px;
+}
+
+.logo-name{
+    font-weight: 600;
+}
+
+.travel-logo {
+    display: flex;
+    gap: 5px;
+    font-weight: 500;
+    width: 120px;
+    height: 45px;
+    background-color: rgba(198, 205, 195, 0.541);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 500px;
+}
+
+.loc{
+    color: blue;
+}
+
+.middle {
+    display: flex;
+    margin: 15px;
+}
+
+.search-box {
+    position: relative;
+    width: 900px;
+}
+
+.search-box i {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+.search-box input {
+    padding-left: 45px;
+}
+
+.inp {
+    border-radius: 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.btn-login{
+    background-color: white;
+    border: none;
+
+}
+
+.btn-cart{
+    background-color: white;
+    border: none;
+    
+}
